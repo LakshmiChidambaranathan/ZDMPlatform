@@ -24,13 +24,13 @@ PODS:
     - ZohoDeskPlatformUIKit
 
 DEPENDENCIES:
-  - ZDMediaPickerSDK (from `/Users/lakshmi-12493/Documents/ZDMediaPickerSDK`)
-  - ZohoDeskPlatformDataBridge (from `/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification`)
-  - ZohoDeskPlatformUIKit/ZPMediaPicker (from `/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification`)
-  - ZohoDeskPortalAPIKit (from `/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform`)
-  - ZohoDeskPortalConfiguration (from `/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform`)
-  - ZohoDeskPortalTicket (from `/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform`)
-  - ZPComponents (from `/Users/lakshmi-12493/Documents/ZohoPlatform/ZPComponents_Basheer`)
+  - ZDMediaPickerSDK (from `https://git.csez.zohocorpin.com/ZohoDeskMobile/zdmediapicker.git`)
+  - ZohoDeskPlatformDataBridge (from `https://zgit.csez.zohocorpin.com/ZohoDeskMobile/desk-platform-sdk-ios.git`, branch `lakshmi_binder_simplification`)
+  - ZohoDeskPlatformUIKit/ZPMediaPicker (from `https://zgit.csez.zohocorpin.com/ZohoDeskMobile/desk-platform-sdk-ios.git`, branch `lakshmi_binder_simplification`)
+  - ZohoDeskPortalAPIKit (from `https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git`, branch `multi_template_platform`)
+  - ZohoDeskPortalConfiguration (from `https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git`, branch `multi_template_platform`)
+  - ZohoDeskPortalTicket (from `https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git`, branch `multi_template_platform`)
+  - ZPComponents (from `https://zgit.csez.zohocorpin.com/ZohoDeskMobile/zpcomponents.git`, branch `Zoholics_2023`)
 
 SPEC REPOS:
   trunk:
@@ -38,19 +38,48 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   ZDMediaPickerSDK:
-    :path: "/Users/lakshmi-12493/Documents/ZDMediaPickerSDK"
+    :git: https://git.csez.zohocorpin.com/ZohoDeskMobile/zdmediapicker.git
   ZohoDeskPlatformDataBridge:
-    :path: "/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification"
+    :branch: lakshmi_binder_simplification
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/desk-platform-sdk-ios.git
   ZohoDeskPlatformUIKit:
-    :path: "/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification"
+    :branch: lakshmi_binder_simplification
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/desk-platform-sdk-ios.git
   ZohoDeskPortalAPIKit:
-    :path: "/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform"
+    :branch: multi_template_platform
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git
   ZohoDeskPortalConfiguration:
-    :path: "/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform"
+    :branch: multi_template_platform
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git
   ZohoDeskPortalTicket:
-    :path: "/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform"
+    :branch: multi_template_platform
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git
   ZPComponents:
-    :path: "/Users/lakshmi-12493/Documents/ZohoPlatform/ZPComponents_Basheer"
+    :branch: Zoholics_2023
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/zpcomponents.git
+
+CHECKOUT OPTIONS:
+  ZDMediaPickerSDK:
+    :commit: 5a98aba9db1ee6336f6eda28b75c60205b2b9557
+    :git: https://git.csez.zohocorpin.com/ZohoDeskMobile/zdmediapicker.git
+  ZohoDeskPlatformDataBridge:
+    :commit: 52f4fee26230c4603f5890daacb8e0f24f95963e
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/desk-platform-sdk-ios.git
+  ZohoDeskPlatformUIKit:
+    :commit: 52f4fee26230c4603f5890daacb8e0f24f95963e
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/desk-platform-sdk-ios.git
+  ZohoDeskPortalAPIKit:
+    :commit: 6dd4a89833fc94d4dc88512c6964485e55467e36
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git
+  ZohoDeskPortalConfiguration:
+    :commit: 6dd4a89833fc94d4dc88512c6964485e55467e36
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git
+  ZohoDeskPortalTicket:
+    :commit: 6dd4a89833fc94d4dc88512c6964485e55467e36
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git
+  ZPComponents:
+    :commit: ebd89dbc0a2785485cb9dd672dc093ef2c4bedba
+    :git: https://zgit.csez.zohocorpin.com/ZohoDeskMobile/zpcomponents.git
 
 SPEC CHECKSUMS:
   SwiftProtobuf: 7773c4e96a99d7b8ab7cda0fc30a883732ff93b1
@@ -62,6 +91,6 @@ SPEC CHECKSUMS:
   ZohoDeskPortalTicket: dca331c4422b6fb0b5be44ac437dd8c5a7586ec6
   ZPComponents: fe3903c1e217c695746a22ea4ee61ca31067eff5
 
-PODFILE CHECKSUM: 1c655d367699af0bdb8b1d8a46716a58e4c77173
+PODFILE CHECKSUM: 11b43d7460406ebaba3e12dea9dff20e774a3d0c
 
 COCOAPODS: 1.12.1

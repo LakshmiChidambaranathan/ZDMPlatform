@@ -6,15 +6,15 @@ target 'ZDMPlatform' do
   use_frameworks!
 
   # Pods for ZDMPlatform
-  pod 'ZohoDeskPortalAPIKit', :path => '/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform'
-  pod 'ZohoDeskPortalConfiguration', :path => '/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform'
-  pod 'ZohoDeskPortalTicket', :path => '/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform'
+  pod 'ZohoDeskPortalAPIKit', :git => 'https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git', :branch => 'multi_template_platform'
+  pod 'ZohoDeskPortalConfiguration', :git => 'https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git', :branch => 'multi_template_platform'
+  pod 'ZohoDeskPortalTicket', :git => 'https://zgit.csez.zohocorpin.com/ZohoDeskMobile/asap-ios-with-platform.git', :branch => 'multi_template_platform'
   
-  pod 'ZohoDeskPlatformDataBridge', :path => '/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification'
-  pod 'ZohoDeskPlatformUIKit/ZPMediaPicker', :path => '/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification'
+  pod 'ZohoDeskPlatformDataBridge', :git => 'https://zgit.csez.zohocorpin.com/ZohoDeskMobile/desk-platform-sdk-ios.git', :branch => 'lakshmi_binder_simplification'
+  pod 'ZohoDeskPlatformUIKit/ZPMediaPicker', :git => 'https://zgit.csez.zohocorpin.com/ZohoDeskMobile/desk-platform-sdk-ios.git', :branch => 'lakshmi_binder_simplification'
   
-  pod 'ZDMediaPickerSDK',  :path => '/Users/lakshmi-12493/Documents/ZDMediaPickerSDK'
+  pod 'ZDMediaPickerSDK',  :git => 'https://git.csez.zohocorpin.com/ZohoDeskMobile/zdmediapicker.git'
   
-  pod 'ZPComponents', :path=>'/Users/lakshmi-12493/Documents/ZohoPlatform/ZPComponents_Basheer'
+  pod 'ZPComponents', :git => 'https://zgit.csez.zohocorpin.com/ZohoDeskMobile/zpcomponents.git', :branch => 'Zoholics_2023'
 
 end

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="x2v-ho-32z">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ZDMPlatform" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ZohoDeskLogo" translatesAutoresizingMaskIntoConstraints="NO" id="mlG-y8-Bfh">
+                                <rect key="frame" x="16" y="155" width="120" height="180"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="jhb-2E-v7o"/>
+                                    <constraint firstAttribute="width" constant="120" id="uuG-GO-tlf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Zoho Desk!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMf-Wt-F1T">
+                                <rect key="frame" x="156" y="185" width="217" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="© 2023, Zoho Corporation Pvt. Ltd. All Rights Reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBI-Ex-re0">
+                                <rect key="frame" x="27" y="802.33333333333337" width="339.33333333333331" height="15.666666666666629"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Self-service Portal." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPU-67-Zwy">
+                                <rect key="frame" x="156" y="215.33333333333334" width="217" height="18"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="You can view the tickets submitted so far and also filter them based on their status eg., open, closed etc. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jY-nb-cWx" userLabel="You can view the tickets submitted so far and also filter them based on their status eg., open, closed etc.">
+                                <rect key="frame" x="156" y="243.33333333333334" width="217" height="51.666666666666657"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" image="customerSupportWithBackground" translatesAutoresizingMaskIntoConstraints="NO" id="OoQ-kB-xys">
+                                <rect key="frame" x="20" y="334" width="353" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="28A-Th-89C"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1vd-XH-G9S">
+                                <rect key="frame" x="16" y="638" width="361" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6um-Ot-e1t" customClass="UIMenuButton" customModule="ZDMPlatform" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="RNa-mC-4cC"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="template" cornerStyle="large">
+                                            <color key="baseBackgroundColor" red="0.26666666666666666" green="0.59215686274509804" blue="0.32156862745098036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="mBF-1t-HA0">
+                                        <rect key="frame" x="52" y="0.0" width="257" height="44"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Access Tickets">
+                                            <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="22"/>
+                                            <directionalEdgeInsets key="contentInsets" top="10" leading="20" bottom="10" trailing="20"/>
+                                            <color key="baseBackgroundColor" red="0.26666666666666666" green="0.59215686274509804" blue="0.32156862745098036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="launchScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NAX-qd-wI2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMX-PF-2Tu">
+                                        <rect key="frame" x="317" y="0.0" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="vXA-OU-18O"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <backgroundConfiguration key="background" image="logout"/>
+                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="logoutTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dLQ-Fe-D2v"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="7Uu-T7-fib"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfx-LS-Odz">
+                                <rect key="frame" x="12" y="690" width="361" height="0.0"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" role="primary" translatesAutoresizingMaskIntoConstraints="NO" id="e99-gY-Vuc">
+                                <rect key="frame" x="16" y="578" width="361" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="qHC-hp-YKe"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Platform Components">
+                                    <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="18"/>
+                                    <directionalEdgeInsets key="contentInsets" top="10" leading="20" bottom="10" trailing="20"/>
+                                    <color key="baseBackgroundColor" red="0.2666666667" green="0.59215686270000001" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="launchComponents:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fGn-qo-Rg2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kMf-Wt-F1T" firstAttribute="top" secondItem="mlG-y8-Bfh" secondAttribute="top" constant="30" id="4gL-Al-NtX"/>
+                            <constraint firstItem="mlG-y8-Bfh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7VH-S5-WRK"/>
+                            <constraint firstItem="e99-gY-Vuc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8Yp-VG-jt5"/>
+                            <constraint firstItem="dfx-LS-Odz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="9bS-Jy-y2q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dfx-LS-Odz" secondAttribute="trailing" constant="16" id="AP0-u2-Rxb"/>
+                            <constraint firstItem="kMf-Wt-F1T" firstAttribute="leading" secondItem="mlG-y8-Bfh" secondAttribute="trailing" constant="20" id="C7J-0w-ofL"/>
+                            <constraint firstItem="OoQ-kB-xys" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DVl-Ig-KpD"/>
+                            <constraint firstItem="1vd-XH-G9S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Hbn-9o-hcN"/>
+                            <constraint firstAttribute="trailing" secondItem="1vd-XH-G9S" secondAttribute="trailing" constant="16" id="KAC-wY-zv9"/>
+                            <constraint firstItem="5jY-nb-cWx" firstAttribute="leading" secondItem="kMf-Wt-F1T" secondAttribute="leading" id="KIU-dH-Hmi"/>
+                            <constraint firstAttribute="trailing" secondItem="5jY-nb-cWx" secondAttribute="trailing" constant="20" id="N9D-Hg-nx6"/>
+                            <constraint firstItem="HPU-67-Zwy" firstAttribute="top" secondItem="kMf-Wt-F1T" secondAttribute="bottom" constant="10" id="NNA-Sx-9ll"/>
+                            <constraint firstItem="1vd-XH-G9S" firstAttribute="top" secondItem="e99-gY-Vuc" secondAttribute="bottom" constant="16" id="SMe-O8-qO5"/>
+                            <constraint firstItem="HPU-67-Zwy" firstAttribute="leading" secondItem="kMf-Wt-F1T" secondAttribute="leading" id="VZb-6L-xBx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e99-gY-Vuc" secondAttribute="trailing" constant="16" id="cYF-q6-xbg"/>
+                            <constraint firstItem="mlG-y8-Bfh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="j34-BO-eSO"/>
+                            <constraint firstItem="e99-gY-Vuc" firstAttribute="top" secondItem="OoQ-kB-xys" secondAttribute="bottom" constant="44" id="jEM-OL-IVh"/>
+                            <constraint firstItem="5jY-nb-cWx" firstAttribute="top" secondItem="HPU-67-Zwy" secondAttribute="bottom" constant="10" id="kP6-z7-Kt9"/>
+                            <constraint firstItem="kMf-Wt-F1T" firstAttribute="trailing" secondItem="HPU-67-Zwy" secondAttribute="trailing" id="kb7-7J-p3r"/>
+                            <constraint firstItem="YBI-Ex-re0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ni0-kA-7sq"/>
+                            <constraint firstItem="dfx-LS-Odz" firstAttribute="top" secondItem="1vd-XH-G9S" secondAttribute="bottom" constant="16" id="qo9-kn-28E"/>
+                            <constraint firstItem="YBI-Ex-re0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r32-EF-rBr"/>
+                            <constraint firstItem="OoQ-kB-xys" firstAttribute="top" secondItem="5jY-nb-cWx" secondAttribute="bottom" constant="39" id="rF0-eJ-cGe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kMf-Wt-F1T" secondAttribute="trailing" constant="20" id="xxd-Jl-pjW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OoQ-kB-xys" secondAttribute="trailing" constant="20" id="yl6-EQ-JrS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xts-7o-aR1"/>
+                    <connections>
+                        <outlet property="customizeButton" destination="6um-Ot-e1t" id="oho-zr-Jqw"/>
+                        <outlet property="infoLabel" destination="dfx-LS-Odz" id="hYq-3j-USz"/>
+                        <outlet property="launchButton" destination="mBF-1t-HA0" id="2Fi-H1-mPX"/>
+                        <outlet property="logoutButton" destination="EMX-PF-2Tu" id="OkO-MR-NWo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1066.4122137404579" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="njo-2N-w6H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="x2v-ho-32z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nLx-JN-lP1">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="OXz-mT-cUN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hhb-3V-baB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.69465648854961" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ZohoDeskLogo" width="512" height="512"/>
+        <image name="customerSupportWithBackground" width="626" height="391"/>
+        <image name="logout" width="60" height="60"/>
+        <image name="template" width="28" height="28"/>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

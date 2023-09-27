@@ -1,0 +1,67 @@
+PODS:
+  - SwiftProtobuf (1.22.1)
+  - ZDMediaPickerSDK (1.0.5)
+  - ZohoDeskPlatformDataBridge (0.0.2)
+  - ZohoDeskPlatformUIKit (0.0.2):
+    - SwiftProtobuf
+    - ZohoDeskPlatformDataBridge
+  - ZohoDeskPlatformUIKit/ZPMediaPicker (0.0.2):
+    - SwiftProtobuf
+    - ZDMediaPickerSDK
+    - ZohoDeskPlatformDataBridge
+  - ZohoDeskPortalAPIKit (3.0.0)
+  - ZohoDeskPortalConfiguration (3.0.0):
+    - ZohoDeskPlatformDataBridge
+    - ZohoDeskPlatformUIKit
+    - ZohoDeskPortalAPIKit
+  - ZohoDeskPortalTicket (3.0.0):
+    - ZohoDeskPlatformDataBridge
+    - ZohoDeskPlatformUIKit
+    - ZohoDeskPortalAPIKit
+    - ZohoDeskPortalConfiguration
+  - ZPComponents (1.0.0):
+    - ZohoDeskPlatformDataBridge
+    - ZohoDeskPlatformUIKit
+
+DEPENDENCIES:
+  - ZDMediaPickerSDK (from `/Users/lakshmi-12493/Documents/ZDMediaPickerSDK`)
+  - ZohoDeskPlatformDataBridge (from `/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification`)
+  - ZohoDeskPlatformUIKit/ZPMediaPicker (from `/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification`)
+  - ZohoDeskPortalAPIKit (from `/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform`)
+  - ZohoDeskPortalConfiguration (from `/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform`)
+  - ZohoDeskPortalTicket (from `/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform`)
+  - ZPComponents (from `/Users/lakshmi-12493/Documents/ZohoPlatform/ZPComponents_Basheer`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  ZDMediaPickerSDK:
+    :path: "/Users/lakshmi-12493/Documents/ZDMediaPickerSDK"
+  ZohoDeskPlatformDataBridge:
+    :path: "/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification"
+  ZohoDeskPlatformUIKit:
+    :path: "/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification"
+  ZohoDeskPortalAPIKit:
+    :path: "/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform"
+  ZohoDeskPortalConfiguration:
+    :path: "/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform"
+  ZohoDeskPortalTicket:
+    :path: "/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform"
+  ZPComponents:
+    :path: "/Users/lakshmi-12493/Documents/ZohoPlatform/ZPComponents_Basheer"
+
+SPEC CHECKSUMS:
+  SwiftProtobuf: 7773c4e96a99d7b8ab7cda0fc30a883732ff93b1
+  ZDMediaPickerSDK: 775b61105fceba31ee12da43edf8f091ee624e51
+  ZohoDeskPlatformDataBridge: 9315d53babc2cd1042425753599520e49047bbc1
+  ZohoDeskPlatformUIKit: b7ebdb6d37ab5726d27bd22bcc1d5f47dcfbbb2c
+  ZohoDeskPortalAPIKit: 1f63488a63a7731a056da4e790445135daf9b371
+  ZohoDeskPortalConfiguration: a15961e1be67f9c1bf4dbcb3a6383d5287647183
+  ZohoDeskPortalTicket: dca331c4422b6fb0b5be44ac437dd8c5a7586ec6
+  ZPComponents: fe3903c1e217c695746a22ea4ee61ca31067eff5
+
+PODFILE CHECKSUM: 1c655d367699af0bdb8b1d8a46716a58e4c77173
+
+COCOAPODS: 1.12.1

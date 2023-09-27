@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ZDMPlatform' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ZDMPlatform
+  pod 'ZohoDeskPortalAPIKit', :path => '/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform'
+  pod 'ZohoDeskPortalConfiguration', :path => '/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform'
+  pod 'ZohoDeskPortalTicket', :path => '/Users/lakshmi-12493/Documents/ASAPLiveData/ASAP_Platform'
+  
+  pod 'ZohoDeskPlatformDataBridge', :path => '/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification'
+  pod 'ZohoDeskPlatformUIKit/ZPMediaPicker', :path => '/Users/lakshmi-12493/Documents/ZohoPlatform/Platform_sdk_ios/Binder_simplification'
+  
+  pod 'ZDMediaPickerSDK',  :path => '/Users/lakshmi-12493/Documents/ZDMediaPickerSDK'
+  
+  pod 'ZPComponents', :path=>'/Users/lakshmi-12493/Documents/ZohoPlatform/ZPComponents_Basheer'
+
+end

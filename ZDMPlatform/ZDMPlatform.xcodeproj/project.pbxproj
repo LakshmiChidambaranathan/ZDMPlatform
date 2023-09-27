@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8643223D2AC3FBA2007CB67C /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8643222E2AC3FBA2007CB67C /* icomoon.ttf */; };
+		8643223E2AC3FBA2007CB67C /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864322302AC3FBA2007CB67C /* Roboto-Medium.ttf */; };
+		8643223F2AC3FBA2007CB67C /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864322312AC3FBA2007CB67C /* Roboto-Light.ttf */; };
+		864322402AC3FBA2007CB67C /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864322322AC3FBA2007CB67C /* Roboto-Regular.ttf */; };
+		864322412AC3FBA2007CB67C /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864322332AC3FBA2007CB67C /* Roboto-MediumItalic.ttf */; };
+		864322422AC3FBA2007CB67C /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864322342AC3FBA2007CB67C /* Roboto-ThinItalic.ttf */; };
+		864322432AC3FBA2007CB67C /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864322352AC3FBA2007CB67C /* Roboto-BoldItalic.ttf */; };
+		864322442AC3FBA2007CB67C /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864322362AC3FBA2007CB67C /* Roboto-LightItalic.ttf */; };
+		864322452AC3FBA2007CB67C /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864322372AC3FBA2007CB67C /* Roboto-Italic.ttf */; };
+		864322462AC3FBA2007CB67C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 864322382AC3FBA2007CB67C /* LICENSE.txt */; };
+		864322472AC3FBA2007CB67C /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 864322392AC3FBA2007CB67C /* Roboto-BlackItalic.ttf */; };
+		864322482AC3FBA2007CB67C /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8643223A2AC3FBA2007CB67C /* Roboto-Bold.ttf */; };
+		864322492AC3FBA2007CB67C /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8643223B2AC3FBA2007CB67C /* Roboto-Thin.ttf */; };
+		8643224A2AC3FBA2007CB67C /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8643223C2AC3FBA2007CB67C /* Roboto-Black.ttf */; };
+		8643224E2AC3FD68007CB67C /* Mooli-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8643224C2AC3FD68007CB67C /* Mooli-Regular.ttf */; };
+		8643224F2AC3FD68007CB67C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8643224D2AC3FD68007CB67C /* OFL.txt */; };
+		86C9BFD72ABD69F7002B379A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9BFD62ABD69F7002B379A /* AppDelegate.swift */; };
+		86C9BFD92ABD69F7002B379A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9BFD82ABD69F7002B379A /* SceneDelegate.swift */; };
+		86C9BFDB2ABD69F7002B379A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C9BFDA2ABD69F7002B379A /* ViewController.swift */; };
+		86C9BFDE2ABD69F7002B379A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C9BFDC2ABD69F7002B379A /* Main.storyboard */; };
+		86C9BFE02ABD69F8002B379A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C9BFDF2ABD69F8002B379A /* Assets.xcassets */; };
+		86C9BFE32ABD69F8002B379A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C9BFE12ABD69F8002B379A /* LaunchScreen.storyboard */; };
+		AD5DB8C2917AB777F2229003 /* Pods_ZDMPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 228CF7359A1D7CA7B27C9A36 /* Pods_ZDMPlatform.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		228CF7359A1D7CA7B27C9A36 /* Pods_ZDMPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDMPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE3EF2847E3B8D620496ACF /* Pods-ZDMPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDMPlatform.debug.xcconfig"; path = "Target Support Files/Pods-ZDMPlatform/Pods-ZDMPlatform.debug.xcconfig"; sourceTree = "<group>"; };
+		8643222E2AC3FBA2007CB67C /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		864322302AC3FBA2007CB67C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		864322312AC3FBA2007CB67C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		864322322AC3FBA2007CB67C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		864322332AC3FBA2007CB67C /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		864322342AC3FBA2007CB67C /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		864322352AC3FBA2007CB67C /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		864322362AC3FBA2007CB67C /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		864322372AC3FBA2007CB67C /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		864322382AC3FBA2007CB67C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		864322392AC3FBA2007CB67C /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		8643223A2AC3FBA2007CB67C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		8643223B2AC3FBA2007CB67C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		8643223C2AC3FBA2007CB67C /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		8643224C2AC3FD68007CB67C /* Mooli-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mooli-Regular.ttf"; sourceTree = "<group>"; };
+		8643224D2AC3FD68007CB67C /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		86C9BFD32ABD69F7002B379A /* ZDMPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDMPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C9BFD62ABD69F7002B379A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86C9BFD82ABD69F7002B379A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86C9BFDA2ABD69F7002B379A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86C9BFDD2ABD69F7002B379A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86C9BFDF2ABD69F8002B379A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86C9BFE22ABD69F8002B379A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86C9BFE42ABD69F8002B379A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC81DBD706ADE030AAE5766 /* Pods-ZDMPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDMPlatform.release.xcconfig"; path = "Target Support Files/Pods-ZDMPlatform/Pods-ZDMPlatform.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C9BFD02ABD69F7002B379A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5DB8C2917AB777F2229003 /* Pods_ZDMPlatform.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AE569C48E55E3BAD1E13666 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AE3EF2847E3B8D620496ACF /* Pods-ZDMPlatform.debug.xcconfig */,
+				8BC81DBD706ADE030AAE5766 /* Pods-ZDMPlatform.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D746A89A93E3DF79EFB746E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				228CF7359A1D7CA7B27C9A36 /* Pods_ZDMPlatform.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8643222F2AC3FBA2007CB67C /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				864322302AC3FBA2007CB67C /* Roboto-Medium.ttf */,
+				864322312AC3FBA2007CB67C /* Roboto-Light.ttf */,
+				864322322AC3FBA2007CB67C /* Roboto-Regular.ttf */,
+				864322332AC3FBA2007CB67C /* Roboto-MediumItalic.ttf */,
+				864322342AC3FBA2007CB67C /* Roboto-ThinItalic.ttf */,
+				864322352AC3FBA2007CB67C /* Roboto-BoldItalic.ttf */,
+				864322362AC3FBA2007CB67C /* Roboto-LightItalic.ttf */,
+				864322372AC3FBA2007CB67C /* Roboto-Italic.ttf */,
+				864322382AC3FBA2007CB67C /* LICENSE.txt */,
+				864322392AC3FBA2007CB67C /* Roboto-BlackItalic.ttf */,
+				8643223A2AC3FBA2007CB67C /* Roboto-Bold.ttf */,
+				8643223B2AC3FBA2007CB67C /* Roboto-Thin.ttf */,
+				8643223C2AC3FBA2007CB67C /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		8643224B2AC3FD68007CB67C /* Mooli */ = {
+			isa = PBXGroup;
+			children = (
+				8643224C2AC3FD68007CB67C /* Mooli-Regular.ttf */,
+				8643224D2AC3FD68007CB67C /* OFL.txt */,
+			);
+			path = Mooli;
+			sourceTree = "<group>";
+		};
+		86C9BFCA2ABD69F7002B379A = {
+			isa = PBXGroup;
+			children = (
+				86C9BFD52ABD69F7002B379A /* ZDMPlatform */,
+				86C9BFD42ABD69F7002B379A /* Products */,
+				6AE569C48E55E3BAD1E13666 /* Pods */,
+				6D746A89A93E3DF79EFB746E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86C9BFD42ABD69F7002B379A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C9BFD32ABD69F7002B379A /* ZDMPlatform.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C9BFD52ABD69F7002B379A /* ZDMPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				8643224B2AC3FD68007CB67C /* Mooli */,
+				8643222E2AC3FBA2007CB67C /* icomoon.ttf */,
+				8643222F2AC3FBA2007CB67C /* Roboto */,
+				86C9BFD62ABD69F7002B379A /* AppDelegate.swift */,
+				86C9BFD82ABD69F7002B379A /* SceneDelegate.swift */,
+				86C9BFDA2ABD69F7002B379A /* ViewController.swift */,
+				86C9BFDC2ABD69F7002B379A /* Main.storyboard */,
+				86C9BFDF2ABD69F8002B379A /* Assets.xcassets */,
+				86C9BFE12ABD69F8002B379A /* LaunchScreen.storyboard */,
+				86C9BFE42ABD69F8002B379A /* Info.plist */,
+			);
+			path = ZDMPlatform;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86C9BFD22ABD69F7002B379A /* ZDMPlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C9BFE72ABD69F8002B379A /* Build configuration list for PBXNativeTarget "ZDMPlatform" */;
+			buildPhases = (
+				AF4428376470F33F478C1157 /* [CP] Check Pods Manifest.lock */,
+				86C9BFCF2ABD69F7002B379A /* Sources */,
+				86C9BFD02ABD69F7002B379A /* Frameworks */,
+				86C9BFD12ABD69F7002B379A /* Resources */,
+				20F410AA8D7DFD637F033958 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDMPlatform;
+			productName = ZDMPlatform;
+			productReference = 86C9BFD32ABD69F7002B379A /* ZDMPlatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C9BFCB2ABD69F7002B379A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					86C9BFD22ABD69F7002B379A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 86C9BFCE2ABD69F7002B379A /* Build configuration list for PBXProject "ZDMPlatform" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86C9BFCA2ABD69F7002B379A;
+			productRefGroup = 86C9BFD42ABD69F7002B379A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C9BFD22ABD69F7002B379A /* ZDMPlatform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86C9BFD12ABD69F7002B379A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8643224E2AC3FD68007CB67C /* Mooli-Regular.ttf in Resources */,
+				864322492AC3FBA2007CB67C /* Roboto-Thin.ttf in Resources */,
+				8643223E2AC3FBA2007CB67C /* Roboto-Medium.ttf in Resources */,
+				864322452AC3FBA2007CB67C /* Roboto-Italic.ttf in Resources */,
+				864322482AC3FBA2007CB67C /* Roboto-Bold.ttf in Resources */,
+				864322442AC3FBA2007CB67C /* Roboto-LightItalic.ttf in Resources */,
+				8643224A2AC3FBA2007CB67C /* Roboto-Black.ttf in Resources */,
+				864322472AC3FBA2007CB67C /* Roboto-BlackItalic.ttf in Resources */,
+				864322402AC3FBA2007CB67C /* Roboto-Regular.ttf in Resources */,
+				8643224F2AC3FD68007CB67C /* OFL.txt in Resources */,
+				86C9BFE32ABD69F8002B379A /* LaunchScreen.storyboard in Resources */,
+				864322462AC3FBA2007CB67C /* LICENSE.txt in Resources */,
+				8643223F2AC3FBA2007CB67C /* Roboto-Light.ttf in Resources */,
+				864322412AC3FBA2007CB67C /* Roboto-MediumItalic.ttf in Resources */,
+				86C9BFE02ABD69F8002B379A /* Assets.xcassets in Resources */,
+				864322422AC3FBA2007CB67C /* Roboto-ThinItalic.ttf in Resources */,
+				86C9BFDE2ABD69F7002B379A /* Main.storyboard in Resources */,
+				864322432AC3FBA2007CB67C /* Roboto-BoldItalic.ttf in Resources */,
+				8643223D2AC3FBA2007CB67C /* icomoon.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20F410AA8D7DFD637F033958 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZDMPlatform/Pods-ZDMPlatform-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZDMPlatform/Pods-ZDMPlatform-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZDMPlatform/Pods-ZDMPlatform-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4428376470F33F478C1157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZDMPlatform-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86C9BFCF2ABD69F7002B379A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C9BFDB2ABD69F7002B379A /* ViewController.swift in Sources */,
+				86C9BFD72ABD69F7002B379A /* AppDelegate.swift in Sources */,
+				86C9BFD92ABD69F7002B379A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86C9BFDC2ABD69F7002B379A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C9BFDD2ABD69F7002B379A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86C9BFE12ABD69F8002B379A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C9BFE22ABD69F8002B379A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86C9BFE52ABD69F8002B379A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86C9BFE62ABD69F8002B379A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C9BFE82ABD69F8002B379A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AE3EF2847E3B8D620496ACF /* Pods-ZDMPlatform.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 9747J9B8LV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZDMPlatform/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deskmobile.zdmPlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ZDPlatform_adhoc_distribution_profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86C9BFE92ABD69F8002B379A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC81DBD706ADE030AAE5766 /* Pods-ZDMPlatform.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 9747J9B8LV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZDMPlatform/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deskmobile.zdmPlatform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ZDPlatform_adhoc_distribution_profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86C9BFCE2ABD69F7002B379A /* Build configuration list for PBXProject "ZDMPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C9BFE52ABD69F8002B379A /* Debug */,
+				86C9BFE62ABD69F8002B379A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C9BFE72ABD69F8002B379A /* Build configuration list for PBXNativeTarget "ZDMPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C9BFE82ABD69F8002B379A /* Debug */,
+				86C9BFE92ABD69F8002B379A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86C9BFCB2ABD69F7002B379A /* Project object */;
+}

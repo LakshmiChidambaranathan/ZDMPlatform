@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        ZDMASAP.setupSDK(with: .deskMobileNew)
+        ZDMASAP.setupSDK(with: .portalSDKNew)
+        ZohoDeskPortalKit.isLogEnabled = true
         return true
     }
 
@@ -110,7 +111,7 @@ final class ZDMASAP {
         case .deskMobileNew:
             credentials = Credentials(appId: "edbsn8feff784431f96819974766bcb79c45e37ddfe79550da844c1dc28672f9d5d79", orgId: "648638721", bundleId: "com.zoho.desk.asapsdk")
         case .portalSDKNew :
-            credentials = Credentials(appId: "edbsnc25778b2ef6741d78f349474f93d13008608c17e3574b0e604269e24e502040f", orgId: "695259828", bundleId: "com.zoho.desk.asapsdk")
+            credentials = Credentials(appId: "edbsnea3ab80ec51a7ca423e3127aec4de23959f13baf07d643dad55d14ec29fc3e67", orgId: "695259828", bundleId: "com.zoho.desk.asapsdk")
         }
         if !credentials.bundleId.isEmpty {
             PNConstants.bundleName = credentials.bundleId

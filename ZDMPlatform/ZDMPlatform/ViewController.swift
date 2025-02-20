@@ -8,7 +8,7 @@
 import UIKit
 import ZohoDeskPortalAPIKit
 import ZohoDeskPortalTicket
-import ZPComponents
+//import ZPComponents
 import ZohoDeskPlatformUIKit
 
 class ViewController: UIViewController {
@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet var customizeButton : UIMenuButton!
     @IBOutlet var infoLabel : UILabel!
     @IBOutlet weak var logoutButton: UIButton!
+    
+    var jwtAPI: String { "https://jwtauth1minute-699218879.development.catalystserverless.com/server/JWT12Hrs/?jwt_secret=ij0zka4jjwEeHFuyUgjKCFDaCUs36qye9xNaWAvQ&user_token=%@&token_expiry=3000000" }
     
     @IBAction func logoutTapped(_ sender: UIButton) {
         self.showLogoutAlert()
@@ -32,11 +34,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func launchComponents(_ sender: UIButton) {
-        ZDPBuilderSDK.init(initial: "ZPHome", includeBinder: ZPComponentsProvider()) { (controller) in
-             DispatchQueue.main.async {
-                self.navigationController?.pushViewController(controller, animated: true)
-             }
-        }
+//        ZDPBuilderSDK.init(initial: "ZPHome", includeBinder: ZPComponentsProvider()) { (controller) in
+//             DispatchQueue.main.async {
+//                self.navigationController?.pushViewController(controller, animated: true)
+//             }
+//        }
     }
     
     lazy var blurView : UIView = {
@@ -58,7 +60,7 @@ class ViewController: UIViewController {
     
     let loginText : String = "Login"
     let accessTicket : String = "Access Tickets"
-    lazy var signInProfile : ZDPortal.Profile? = nil
+    lazy var signInProfile : ZDPortal.ZDPProfile? = nil
     var style : Int = 0
     
     override func viewDidLoad() {
@@ -98,6 +100,35 @@ class ViewController: UIViewController {
         }
     }
     
+    func fetchJWTTokenFromURL(userID: String, onCompletion handler: @escaping (String?) -> Void) {
+         
+//         guard let addOn = AutomationApp.AddOn(rawValue: ConfigurationDefaults.addOn) else { return }
+         
+         let Url = String(format: jwtAPI, userID)
+         guard let serviceUrl = URL(string: Url) else { return }
+         var request = URLRequest(url: serviceUrl)
+         request.httpMethod = "GET"
+         
+         let session = URLSession.shared
+         session.dataTask(with: request) { (data, response, error) in
+             handler(data?.toString)
+         }.resume()
+     }
+     
+     func loginWithJWT(jwtToken: String?, onCompletion handler: @escaping (Bool) -> Void) {
+         if let jwtToken = jwtToken {
+             ZohoDeskPortalKit.login(withJWTToken: jwtToken) { isSuccess in
+                 if isSuccess, let deviceID = UserDefaults.standard.value(forKey: "ZDPDemodeviceToken") as? String {
+                     ZohoDeskPortalSDK.enablePushNotification(deviceToken: deviceID, mode: .sandbox)
+                 }
+                 
+                 handler(isSuccess)
+             }
+         }else{
+             handler(false)
+         }
+     }
+    
     @objc private func signInTapped(_ sender: UIButton) {
         UISelectionFeedbackGenerator().selectionChanged()
         if !ZohoDeskPortalKit.isUserLoggedIn {
@@ -129,9 +160,15 @@ class ViewController: UIViewController {
                     return
                 }
                 self.start()
-                ZohoDeskPortalKit.login(withUserToken: email) { (isSucceed) in
-                    self.updateSignInValue()
-                }
+                
+                self.fetchJWTTokenFromURL(userID: email, onCompletion: { [weak self] jwtToken in
+                    guard let self = self else { return }
+                    if let jwtToken = jwtToken {
+                        ZohoDeskPortalKit.login(withJWTToken: jwtToken) { (isSucceed) in
+                            self.updateSignInValue()
+                        }
+                    }
+                })
             })
             
             loginAlert.addAction(loginAction)
@@ -141,7 +178,7 @@ class ViewController: UIViewController {
     }
     
     private func loginASAP(with email: String = /*"deskqa17@gmail.com"*/"vignesh.thillai@zohocorp.com") {
-        ZohoDeskPortalKit.login(withUserToken: email) { (isSucceed) in
+        ZohoDeskPortalKit.login(withJWTToken: email) { (isSucceed) in
             if !(isSucceed) {
                 self.showAlert(with: "Login failed")
             }
@@ -325,3 +362,12 @@ class UIMenuButton: UIButton {
 }
 
 
+extension Data {
+    var toString : String {
+        if let string = String(data: self, encoding: .utf8) {
+            return string
+        } else {
+            return ""
+        }
+    }
+}
